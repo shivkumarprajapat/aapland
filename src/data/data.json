@@ -1,0 +1,142 @@
+{
+    "Home": {
+        "short_ttl": "Launch Your App",
+        "title": "With Confidence and Creativity.",
+        "desp": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diamnon umy eirmomp or invidunt ut labore et dolore magna aliquyam eratse diam voluptua. At vero eosaccusam.",
+        "image": "assets/images/header-app.png",
+        "shape1": "assets/images/image-shape.svg",
+        "shape2": "assets/images/header-shape-2.svg"
+    },
+    "Why": [
+        {
+            "icon": "lni lni-layers",
+            "title": "Clean Design",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.",
+            "cls": "services-color-1"
+        },
+        {
+            "icon": "lni lni-layout",
+            "title": "Easy to Use",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.",
+            "cls": "services-color-2"
+        },
+        {
+            "icon": "lni lni-bolt",
+            "title": "Fast Loading",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.",
+            "cls": "services-color-3"
+        },
+        {
+            "icon": "lni lni-protection",
+            "title": "All Elements",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.",
+            "cls": "services-color-4"
+        }
+    ],
+    "About": {
+        "title": "Comes With All You Need.",
+        "desp": "Alii nusquam cu duo, vim eu consulatu percipitur, meis doorcomprehen sam at vis. Vel ut dignissim signiferumq Alii nusquam cuduo, vim eusde consulatu percipitur, meis dolor comprehensam at vij. Alii nusquam cu duo, vim eu consulatu percipitur, meis doorcomprehen sam at vis. Vel ut dignissim signiferumq nusquam.",
+        "image": "assets/images/header-app.png"
+    },
+    "Features": {
+        "title": "Awesome Key Features.",
+        "desc": "Alii nusquam cu duo, vim eu consulatu percipitur, meis dolor comprehensam at vis. Vel ut percipitur dignissim signiferumque.",
+        "image": "assets/images/features-app.png",
+        "shape2": "assets/images/features-shape-1.svg",
+        "FeaturesBox": [
+            {
+                "icons": "lni lni-laptop-phone",
+                "title": "Fully Responsive",
+                "body": "Lorem ipsum dolor sit ametco snsetetur sadipscing elitr sed diam nonumy eirmod.",
+                "cls": "features-color-1"
+            },
+            {
+                "icons": "lni lni-leaf",
+                "title": "Refreshing Design",
+                "body": "Lorem ipsum dolor sit ametco snsetetur sadipscing elitr sed diam nonumy eirmod.",
+                "cls": "features-color-2"
+            },
+            {
+                "icons": "lni lni-bootstrap",
+                "title": "Bootstrap 4",
+                "body": "Lorem ipsum dolor sit ametco snsetetur sadipscing elitr sed diam nonumy eirmod.",
+                "cls": "features-color-3"
+            }
+        ]
+    },
+    "Screenshots": {
+        "title": "App Screenshots.",
+        "desc": "Alii nusquam cu duo, vim eu consulatu percipitur, meis dolor comprehensam at vis. Vel ut percipitur dignissim signiferumque.",
+        "slider": [
+            {
+                "sliderimg": "assets/images/screenshot-1.jpg"
+            },
+            {
+                "sliderimg": "assets/images/screenshot-2.jpg"
+            },
+            {
+                "sliderimg": "assets/images/screenshot-3.jpg"
+            },
+            {
+                "sliderimg": "assets/images/screenshot-4.jpg"
+            }
+        ]
+    },
+    "Testimonial": {
+        "title": "User Reviews.",
+        "desc": "Alii nusquam cu duo, vim eu consulatu percipitur, meis dolor comprehensam at vis. Vel ut percipitur dignissim signiferumque."
+    },
+    "Pricing": {
+        "title": "Choose a Plan.",
+        "desc": "Alii nusquam cu duo, vim eu consulatu percipitur, meis dolor comprehensam at vis. Vel ut percipitur dignissim signiferumque.",
+        "Pricingbox": [
+            {
+                "title": "Basic",
+                "price": "$49",
+                "text": "Monthly",
+                "pricing_btn": "Purchase Now",
+                "cls": "pricing-active"
+            },
+            {
+                "title": "Standard",
+                "price": "$99",
+                "text": "Monthly",
+                "pricing_btn": "Purchase Now",
+                "cls": "pricing-active"
+            },
+            {
+                "title": "Professional",
+                "price": "$199",
+                "text": "Monthly",
+                "pricing_btn": "Purchase Now",
+                "cls": "pricing-active"
+            }
+        ]
+    },
+    "Download": {
+        "title": "Download and Start Using!",
+        "desc": "Alii nusquam cu duo, vim eu consulatu percipitur, meis doorcomprehen sam at vis. Vel ut dignissim signiferumq Alii nusquam cuduo, vim eusde consulatu percipitur, meis dolor comprehensam at vij. Alii nusquam cu duo, vim eu consulatu percipitur, meis doorcomprehen sam at vis. Vel ut dignissim signiferumq nusquam.",
+        "image": "assets/images/download-app.png",
+        "downloadbox": [
+            {
+                "image": "assets/images/app-store.png",
+                "cls": "app-store"
+            },
+            {
+                "image": "assets/images/play-store.png",
+                "cls": "play-store"
+            }
+        ]
+    },
+    "Footer": {
+        "address": "Lorem ipsum dolor sit amet consetetur sadipscing elitr, sederfs diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.",
+        "ttl1": "Quick Links",
+        "ttl2": "Support",
+        "ttl3": "Quick Link",
+        "phone": "+1 123 456 1234",
+        "email": "info@company.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    }
+}

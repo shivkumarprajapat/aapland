@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react'
+import { BrowserRouter as Router, } from "react-router-dom";
+import JsonData from './data/data.json'
+import Header from './components/Header';
+import Footer from './components/Footer'
+import Home from './components/Home';
+import Why from './components/Why';
+import About from './components/About';
+import Features from './components/Features';
+import Screenshots from './components/Screenshots';
+import Testimonial from './components/Testimonial';
+import Pricing from './components/Pricing';
+import Download from './components/Download'
+const App = () => {
+  const [landingPageData, setLandingPageData] = useState({})
+  useEffect(() => {
+    setLandingPageData(JsonData)
+  }, [])
 
-function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Router>
+        <Header />
+        <Home data={landingPageData.Home} />
+        <Why data={landingPageData.Why} />
+        <About data={landingPageData.About} />
+        <Features data={landingPageData.Features} />
+        <Screenshots data={landingPageData.Screenshots} />
+        <Testimonial data={landingPageData.Testimonial} />
+        <Pricing data={landingPageData.Pricing} />
+        <Download data={landingPageData.Download} />
+        <Footer data={landingPageData.Footer} />
+      </Router>
+    </>
+  )
 }
 
-export default App;
+export default App
